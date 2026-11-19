@@ -63,8 +63,6 @@ brew "open-scene-graph"
 brew "ripgrep"
 # CLI proxy to minimize LLM token consumption
 brew "rtk"
-# AI coding agent, built for the terminal
-brew "opencode"
 # Highly capable, feature-rich programming language
 brew "perl"
 # Package compiler and linker metadata toolkit
@@ -101,8 +99,6 @@ brew "zsh-autocomplete"
 brew "zsh-autosuggestions"
 # Enable Windows-like alt-tab
 cask "alt-tab"
-# Terminal interface for Antigravity agents
-cask "antigravity-cli"
 # Prevents your sleeping computer from connecting to Bluetooth accessories
 cask "bluesnooze"
 # Terminal-based AI coding assistant
