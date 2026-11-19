@@ -12,7 +12,8 @@ git clone https://github.com/MrORE0/dotfiles.git ~/dotfiles
 `install.sh` installs Homebrew and everything in `Brewfile`, Oh My Zsh, tmux plugins (tpm),
 clones the Neovim config, and symlinks the configs below. It is safe to rerun.
 
-To only relink configs: `~/dotfiles/link.sh`. Files it replaces are kept as `*.backup-<timestamp>`.
+To only relink configs: `~/dotfiles/link.sh`. 
+Files it replaces are kept as `*.backup-<timestamp>`.
 
 ## Layout
 
@@ -24,15 +25,6 @@ To only relink configs: `~/dotfiles/link.sh`. Files it replaces are kept as `*.b
 | `ghostty/` | `~/.config/ghostty/` |
 | `iterm2/` | iTerm2 loads preferences from this folder |
 | `Brewfile` | `brew bundle` |
-
-## Not tracked
-
-Secrets and machine-specific settings go in files that are sourced if present and never committed:
-
-- `~/.zshrc.local` for API keys, tokens and local aliases
-- `~/.gitconfig.local` for local git overrides
-
-SSH keys are not part of this repo. After setup, create or restore a key and run `gh auth login`.
 
 ## Updating
 
