@@ -1,0 +1,30 @@
+# Migrated from iTerm2 (Default profile). Previous template saved as config.ghostty.bak.
+
+# Font: iTerm2 used FiraMonoNF-Regular 23
+font-family = "JetBrainsMono Nerd Font"
+font-size = 23
+
+# Colors: iTerm2 had separate light/dark mode colors; follow macOS appearance
+theme = light:iterm-light,dark:iterm-dark
+bold-is-bright = true
+
+# Cursor: non-blinking
+cursor-style = block
+cursor-style-blink = false
+
+
+# Shell starts in home directory, new tabs/splits inherit current directory
+working-directory = home
+window-inherit-working-directory = true
+
+# Do not ask before closing a tab/window (iTerm2 "Prompt before closing" was off)
+confirm-close-surface = false
+
+# iTerm2 global key: Shift+Return sends a newline (used by Claude Code etc.)
+keybind = shift+enter=text:\n
+
+# Option keys behave as normal macOS Option (iTerm2 "Option key sends: Normal")
+macos-option-as-alt = false
+
+# Copy terminfo to ssh hosts so remote shells understand xterm-ghostty
+shell-integration-features = ssh-env,ssh-terminfo
