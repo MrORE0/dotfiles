@@ -21,7 +21,7 @@ To only relink configs: `~/dotfiles/link.sh`. Files it replaces are kept as `*.b
 | `zsh/zshrc`, `zsh/zprofile`, `zsh/zshenv` | `~/.zshrc`, `~/.zprofile`, `~/.zshenv` |
 | `tmux/tmux.conf`, `tmux/*.sh` | `~/.tmux.conf`, `~/.tmux/*.sh` |
 | `git/gitconfig`, `git/ignore` | `~/.gitconfig`, `~/.config/git/ignore` |
-| `ghostty/` | `~/Library/Application Support/com.mitchellh.ghostty/` |
+| `ghostty/` | `~/.config/ghostty/` |
 | `iterm2/` | iTerm2 loads preferences from this folder |
 | `Brewfile` | `brew bundle` |
 

@@ -4,7 +4,6 @@ set -euo pipefail
 
 DOTFILES="$(cd "$(dirname "$0")" && pwd)"
 STAMP="$(date +%Y%m%d%H%M%S)"
-GHOSTTY="$HOME/Library/Application Support/com.mitchellh.ghostty"
 
 link() {
   local src="$DOTFILES/$1" dest="$2"
@@ -29,8 +28,8 @@ link tmux/resurrect-picker.sh  "$HOME/.tmux/resurrect-picker.sh"
 link tmux/resurrect-delete.sh  "$HOME/.tmux/resurrect-delete.sh"
 link git/gitconfig             "$HOME/.gitconfig"
 link git/ignore                "$HOME/.config/git/ignore"
-link ghostty/config.ghostty    "$GHOSTTY/config.ghostty"
-link ghostty/themes            "$GHOSTTY/themes"
+link ghostty/config.ghostty    "$HOME/.config/ghostty/config.ghostty"
+link ghostty/themes            "$HOME/.config/ghostty/themes"
 
 # iTerm2 reads its preferences from this repo
 defaults write com.googlecode.iterm2 PrefsCustomFolder -string "$DOTFILES/iterm2"
