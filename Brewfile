@@ -61,6 +61,8 @@ brew "open-mpi"
 brew "open-scene-graph"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
+# CLI proxy to minimize LLM token consumption
+brew "rtk"
 # AI coding agent, built for the terminal
 brew "opencode"
 # Highly capable, feature-rich programming language
