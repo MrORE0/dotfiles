@@ -22,6 +22,7 @@ Files it replaces are kept as `*.backup-<timestamp>`.
 | `zsh/zshrc`, `zsh/zprofile`, `zsh/zshenv` | `~/.zshrc`, `~/.zprofile`, `~/.zshenv` |
 | `tmux/tmux.conf`, `tmux/*.sh` | `~/.tmux.conf`, `~/.tmux/*.sh` |
 | `git/gitconfig`, `git/ignore` | `~/.gitconfig`, `~/.config/git/ignore` |
+| `ssh/config` | `~/.ssh/config` |
 | `ghostty/` | `~/.config/ghostty/` |
 | `iterm2/` | iTerm2 loads preferences from this folder |
 | `Brewfile` | `brew bundle` |

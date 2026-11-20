@@ -28,6 +28,7 @@ link tmux/resurrect-picker.sh  "$HOME/.tmux/resurrect-picker.sh"
 link tmux/resurrect-delete.sh  "$HOME/.tmux/resurrect-delete.sh"
 link git/gitconfig             "$HOME/.gitconfig"
 link git/ignore                "$HOME/.config/git/ignore"
+link ssh/config                "$HOME/.ssh/config"
 link ghostty/config.ghostty    "$HOME/.config/ghostty/config.ghostty"
 link ghostty/themes            "$HOME/.config/ghostty/themes"
 
